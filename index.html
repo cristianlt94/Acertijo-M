@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acertijo</title>
+    <!-- FAVICON -->
+    <link rel="icon" href="favicon2.jpg" type="image/png" />
+     <!-- FONT AWESOME -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+     <!-- FONT OSWALD -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+     <!-- CUSTOM CSS -->
+     <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section style="display: block;" class="body current" id="wizard-p-4" role="tabpanel" aria-labelledby="wizard-h-4"
+        aria-hidden="false">
+        <div class="wrapper_row">
+            <div class="presentacion">
+                <h1>
+                    <p>Si usted está leyendo este texto, ha sido seleccionado para participar en el siguiente acertijo. Si lo consigue resolver, recibirá una recompensa, por el contrario este
+                    mensaje se perderá para siempre.<br>
+                    
+                    Las normas son sencillas, <font color="red">NO comparta esta información con NADIE , NO mire el resultado en internet , NO seleccione ninguna respuesta hasta estar seguro de saber la solución.</font><br>
+                    
+                    Buena suerte.
+                    </p>
+                </h1>
+                <div class="enunciado" data-step="5">
+                    
+                    <h1 class="js_error_placement quizz_question required_field">
+                        <p>Este es el enunciado del acertijo:<br> 
+                            <font color="grey">En una calle hay cinco casas, cada una de un color
+                                distinto. En cada casa vive una persona de distinta nacionalidad. Cada dueño bebe un único
+                                tipo de bebida, fuma una sola marca de cigarrillos y tiene una mascota diferente a sus
+                                vecinos. A partir de las 15 pistas presentadas a continuación, la consigna que hay que
+                                responder es: "¿Quién es el dueño del pez?".</p>
+                            <div class="pistas">
+                            1. El británico vive en la casa roja.<br>
+                            2. El sueco tiene un perro como mascota.<br>
+                            3. El danés toma té.<br>
+                            4. El noruego vive en la primera casa.<br>
+                            5. El alemán fuma Prince.<br>
+                            6. La casa verde está inmediatamente a la izquierda de la blanca.<br>
+                            7. El dueño de la casa verde bebe café.<br>
+                            8. El propietario que fuma Pall Mall cría pájaros.<br>
+                            9. El dueño de la casa amarilla fuma Dunhill.<br>
+                            10. El hombre que vive en la casa del centro bebe leche.<br>
+                            11. El vecino que fuma Blends vive al lado del que tiene un gato.<br>
+                            12. El hombre que tiene un caballo vive al lado del que fuma Dunhill.<br>
+                            13. El propietario que fuma Bluemaster toma cerveza.<br>
+                            14. El vecino que fuma Blends viveal lado del que toma agua.<br>
+                            15. El noruego vive al lado de la casa azul.<br>
+                            </div>
+                        </font>
+                        
+                    </h1>
+                </div>
+                <section class="container">
+                    <div class="respuesta">
+                        <form style="font:normal 16px sans-serif">
+                            <p>EL DUEÑO DEL PEZ ES EL.......</p><br>
+    
+                            <p ><input type="radio" name="pregunta1" id="p11" onclick="resultado()"/> DANÉS.
+                            </p><br>
+                            <p ><input type="radio" name="pregunta1" id="p12" onclick="resultado()"/> NORUEGO
+                            </p><br>
+                            <p ><input type="radio" name="pregunta1" id="p13" onclick="resultado()"/> ALEMÁN
+                            </p><br>
+                            <p ><input type="radio" name="pregunta1" id="p14" onclick="resultado()"/> SUECO</p><br>
+                            <p><input type="radio" name="pregunta1" id="p14" onclick="resultado()"/> BRITÁNICO
+                            </p><br>
+                        </form>
+                </section>
+                </div>
+                <script src="script.js"></script>
+
+
+</body>
+
+</html>
